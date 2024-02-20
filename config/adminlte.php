@@ -66,11 +66,11 @@ return [
       ["path" => "/e-commerce", "title" => "E-commerce", "icon" => "far fa-circle", "slug" => "", "children" => []],
       ["path" => "/projects", "title" => "Projects", "icon" => "far fa-circle", "slug" => "", "children" => []],
       ["path" => "/project-add", "title" => "Project Add", "icon" => "far fa-circle", "slug" => "", "children" => []],
-      ["path" => "/project-detail", "title" => "Project Edit", "icon" => "far fa-circle", "slug" => "", "children" => []],
-      ["path" => "", "title" => "Project Detail", "icon" => "far fa-circle", "slug" => "", "children" => []],
-      ["path" => "", "title" => "Contacts", "icon" => "far fa-circle", "slug" => "", "children" => []],
-      ["path" => "", "title" => "FAQ", "icon" => "far fa-circle", "slug" => "", "children" => []],
-      ["path" => "", "title" => "Contact us", "icon" => "far fa-circle", "slug" => "", "children" => []],
+      ["path" => "/project-edit", "title" => "Project Edit", "icon" => "far fa-circle", "slug" => "", "children" => []],
+      ["path" => "/project-detail", "title" => "Project Detail", "icon" => "far fa-circle", "slug" => "", "children" => []],
+      ["path" => "/contacts", "title" => "Contacts", "icon" => "far fa-circle", "slug" => "", "children" => []],
+      ["path" => "/faq", "title" => "FAQ", "icon" => "far fa-circle", "slug" => "", "children" => []],
+      ["path" => "/contact-us", "title" => "Contact us", "icon" => "far fa-circle", "slug" => "", "children" => []],
 
     ]],
     ["path" => "/examples", "title" => "Extras", "icon" => "far fa-plus-square", "slug" => "", "children" => [

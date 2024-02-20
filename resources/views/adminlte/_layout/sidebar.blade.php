@@ -44,9 +44,10 @@
             @break
 
             @default
-              <li class="nav-item @if (($menu['visible'] ?? true) == false) d-none @endif">
+              <li
+                class="nav-item @if ($module_env['ROUTE_PREFIX'] . $menu['path'] == request()->route()->getPrefix()) menu-open @endif @if (($menu['visible'] ?? true) == false) d-none @endif">
                 <a href="@empty($menu['children']) /{{ $module_env['ROUTE_PREFIX'] }}{{ $menu['path'] }} @else # @endempty"
-                  class="nav-link">
+                  class="nav-link @if ($module_env['ROUTE_PREFIX'] . $menu['path'] == request()->route()->uri()) active @endif">
                   <i class="nav-icon {{ $menu['icon'] ?? '' }}"></i>
                   <p>
                     {!! $menu['title'] !!}
@@ -67,7 +68,7 @@
                     @foreach ($menu['children'] ?? [] as $menu_item)
                       <li class="nav-item">
                         <a href="/{{ $module_env['ROUTE_PREFIX'] }}{{ $menu['path'] }}{{ $menu_item['path'] }}"
-                          class="nav-link">
+                          class="nav-link @if ($module_env['ROUTE_PREFIX'] . $menu['path'] . $menu_item['path'] == request()->route()->uri()) active @endif">
                           <i class="nav-icon {{ $menu_item['icon'] ?? '' }}"></i>
                           <p> {!! $menu_item['title'] !!}
                             @empty($menu_item['children'])
