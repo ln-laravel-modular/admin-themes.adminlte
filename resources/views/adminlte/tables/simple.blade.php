@@ -6,7 +6,7 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="/modules/adminlte/public/css/adminlte.min.css">
 @endsection
 
 
@@ -783,7 +783,7 @@
   <!-- Bootstrap 4 -->
   <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- AdminLTE App -->
-  <script src="../../dist/js/adminlte.min.js"></script>
+  <script src="/modules/adminlte/public/js/adminlte.min.js"></script>
   <!-- AdminLTE for demo purposes -->
-  <script src="../../dist/js/demo.js"></script>
+  <script src="/modules/adminlte/public/js/demo.js"></script>
 @endsection

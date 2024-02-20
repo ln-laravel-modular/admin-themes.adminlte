@@ -10,9 +10,9 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="/modules/adminlte/public/vendor/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="/modules/adminlte/public/css/adminlte.min.css">
 </head>
 
 <body class="hold-transition lockscreen">
@@ -28,7 +28,7 @@
     <div class="lockscreen-item">
       <!-- lockscreen image -->
       <div class="lockscreen-image">
-        <img src="../../dist/img/user1-128x128.jpg" alt="User Image">
+        <img src="/modules/adminlte/public/img/user1-128x128.jpg" alt="User Image">
       </div>
       <!-- /.lockscreen-image -->
 
@@ -62,9 +62,9 @@
   <!-- /.center -->
 
   <!-- jQuery -->
-  <script src="../../plugins/jquery/jquery.min.js"></script>
+  <script src="/modules/adminlte/public/vendor/jquery/jquery.min.js"></script>
   <!-- Bootstrap 4 -->
-  <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/modules/adminlte/public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

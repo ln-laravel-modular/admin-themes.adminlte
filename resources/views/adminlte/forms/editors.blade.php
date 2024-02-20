@@ -9,16 +9,16 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="/modules/adminlte/public/vendor/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="/modules/adminlte/public/css/adminlte.min.css">
   <!-- summernote -->
-  <link rel="stylesheet" href="../../plugins/summernote/summernote-bs4.min.css">
+  <link rel="stylesheet" href="/modules/adminlte/public/vendor/summernote/summernote-bs4.min.css">
   <!-- CodeMirror -->
-  <link rel="stylesheet" href="../../plugins/codemirror/codemirror.css">
-  <link rel="stylesheet" href="../../plugins/codemirror/theme/monokai.css">
+  <link rel="stylesheet" href="/modules/adminlte/public/vendor/codemirror/codemirror.css">
+  <link rel="stylesheet" href="/modules/adminlte/public/vendor/codemirror/theme/monokai.css">
   <!-- SimpleMDE -->
-  <link rel="stylesheet" href="../../plugins/simplemde/simplemde.min.css">
+  <link rel="stylesheet" href="/modules/adminlte/public/vendor/simplemde/simplemde.min.css">
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -71,7 +71,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="../../dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <img src="/modules/adminlte/public/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Brad Diesel
@@ -87,7 +87,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="../../dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="/modules/adminlte/public/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   John Pierce
@@ -103,7 +103,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="../../dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="/modules/adminlte/public/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Nora Silvester
@@ -164,7 +164,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="../../index3.html" class="brand-link">
-      <img src="../../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <img src="/modules/adminlte/public/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">AdminLTE 3</span>
     </a>
 
@@ -173,7 +173,7 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="../../dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="/modules/adminlte/public/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Alexander Pierce</a>
@@ -932,20 +932,20 @@
 <!-- ./wrapper -->
 
 <!-- jQuery -->
-<script src="../../plugins/jquery/jquery.min.js"></script>
+<script src="/modules/adminlte/public/vendor/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/modules/adminlte/public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="../../dist/js/adminlte.min.js"></script>
+<script src="/modules/adminlte/public/js/adminlte.min.js"></script>
 <!-- Summernote -->
-<script src="../../plugins/summernote/summernote-bs4.min.js"></script>
+<script src="/modules/adminlte/public/vendor/summernote/summernote-bs4.min.js"></script>
 <!-- CodeMirror -->
-<script src="../../plugins/codemirror/codemirror.js"></script>
-<script src="../../plugins/codemirror/mode/css/css.js"></script>
-<script src="../../plugins/codemirror/mode/xml/xml.js"></script>
-<script src="../../plugins/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+<script src="/modules/adminlte/public/vendor/codemirror/codemirror.js"></script>
+<script src="/modules/adminlte/public/vendor/codemirror/mode/css/css.js"></script>
+<script src="/modules/adminlte/public/vendor/codemirror/mode/xml/xml.js"></script>
+<script src="/modules/adminlte/public/vendor/codemirror/mode/htmlmixed/htmlmixed.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="../../dist/js/demo.js"></script>
+<script src="/modules/adminlte/public/js/demo.js"></script>
 <!-- Page specific script -->
 <script>
   $(function () {

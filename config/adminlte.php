@@ -77,25 +77,25 @@ return [
       ["path" => "", "title" => "Login & Register v1", "icon" => "far fa-circle", "slug" => "", "children" => [
         ["path" => "/login", "title" => "Login v1", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
         ["path" => "/register", "title" => "Register v1", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
-        ["path" => "", "title" => "Forgot Password v1", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
-        ["path" => "", "title" => "Recover Password v1", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
+        ["path" => "/forgot-password", "title" => "Forgot Password v1", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
+        ["path" => "/recover-password", "title" => "Recover Password v1", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
 
       ]],
       ["path" => "", "title" => "Login & Register v2", "icon" => "far fa-circle", "slug" => "", "children" => [
         ["path" => "/login-v2", "title" => "Login v2", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
-        ["path" => "", "title" => "Register v2", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
-        ["path" => "", "title" => "Forgot Password v2", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
-        ["path" => "", "title" => "Recover Password v2", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
+        ["path" => "/register-v2", "title" => "Register v2", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
+        ["path" => "/forgot-password-v2", "title" => "Forgot Password v2", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
+        ["path" => "/recover-password-v2", "title" => "Recover Password v2", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
 
       ]],
-      ["path" => "", "title" => "Lockscreen", "icon" => "far fa-circle", "slug" => "", "children" => []],
-      ["path" => "", "title" => "Legacy User Menu", "icon" => "far fa-circle", "slug" => "", "children" => []],
-      ["path" => "", "title" => "Language Menu", "icon" => "far fa-circle", "slug" => "", "children" => []],
-      ["path" => "", "title" => "Error 404", "icon" => "far fa-circle", "slug" => "", "children" => []],
-      ["path" => "", "title" => "Error 500", "icon" => "far fa-circle", "slug" => "", "children" => []],
-      ["path" => "", "title" => "Pace", "icon" => "far fa-circle", "slug" => "", "children" => []],
-      ["path" => "", "title" => "Blank Page", "icon" => "far fa-circle", "slug" => "", "children" => []],
-      ["path" => "", "title" => "Starter Page", "icon" => "far fa-circle", "slug" => "", "children" => []],
+      ["path" => "/lockscreen", "title" => "Lockscreen", "icon" => "far fa-circle", "slug" => "", "children" => []],
+      ["path" => "/legacy-user-menu", "title" => "Legacy User Menu", "icon" => "far fa-circle", "slug" => "", "children" => []],
+      ["path" => "/language-menu", "title" => "Language Menu", "icon" => "far fa-circle", "slug" => "", "children" => []],
+      ["path" => "/404", "title" => "Error 404", "icon" => "far fa-circle", "slug" => "", "children" => []],
+      ["path" => "/500", "title" => "Error 500", "icon" => "far fa-circle", "slug" => "", "children" => []],
+      ["path" => "/pace", "title" => "Pace", "icon" => "far fa-circle", "slug" => "", "children" => []],
+      ["path" => "/blank", "title" => "Blank Page", "icon" => "far fa-circle", "slug" => "", "children" => []],
+      ["path" => "/starter", "title" => "Starter Page", "icon" => "far fa-circle", "slug" => "", "children" => []],
 
     ]],
     ["path" => "/search", "title" => "Search", "icon" => "fas fa-search", "slug" => "", "children" => [

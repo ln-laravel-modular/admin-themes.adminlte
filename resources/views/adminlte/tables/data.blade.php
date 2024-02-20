@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="../../plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
   <link rel="stylesheet" href="../../plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="/modules/adminlte/public/css/adminlte.min.css">
 @endsection
 
 @section('content')
@@ -944,9 +944,9 @@
   <script src="../../plugins/datatables-buttons/js/buttons.print.min.js"></script>
   <script src="../../plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
   <!-- AdminLTE App -->
-  <script src="../../dist/js/adminlte.min.js"></script>
+  <script src="/modules/adminlte/public/js/adminlte.min.js"></script>
   <!-- AdminLTE for demo purposes -->
-  <script src="../../dist/js/demo.js"></script>
+  <script src="/modules/adminlte/public/js/demo.js"></script>
   <!-- Page specific script -->
   <script>
     $(function() {

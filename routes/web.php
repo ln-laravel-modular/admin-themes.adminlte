@@ -23,7 +23,7 @@ Route::prefix(module_env('ROUTE_PREFIX'))->group(function () {
   Route::get('/', function (Request $request) use ($module) {
     return view('adminlte.index', $module);
   });
-  foreach (['index2', 'index3', 'calendar', 'gallery', 'iframe', 'iframe-dark', 'kanban', 'starter', 'widgets'] as $path) {
+  foreach (['index2', 'index3', 'calendar', 'gallery', 'iframe', 'iframe-dark', 'kanban', 'widgets'] as $path) {
     Route::get('/' . $path, function (Request $request) use ($path, $module) {
       return view('adminlte.' . $path, $module);
     });
@@ -38,7 +38,7 @@ Route::prefix(module_env('ROUTE_PREFIX'))->group(function () {
   });
 
   Route::prefix('examples')->group(function () use ($module) {
-    foreach (['404', '500', 'blank', 'contact-us', 'contacts', 'e-commerce', 'faq', 'forgot-password-v2', 'forgot-password', 'invoice-print', 'invoice', 'language-menu', 'legacy-user-menu', 'lockscreen', 'login-v2', 'login', 'pace', 'profile', 'project-add', 'project-detail', 'project-detail', 'project-edit', 'projects', 'recover-password-v2', 'recover-password', 'register-v2', 'register'] as $path) {
+    foreach (['404', '500', 'blank', 'contact-us', 'contacts', 'e-commerce', 'faq', 'forgot-password-v2', 'forgot-password', 'invoice-print', 'invoice', 'language-menu', 'legacy-user-menu', 'lockscreen', 'login-v2', 'login', 'pace', 'profile', 'project-add', 'project-detail', 'project-detail', 'project-edit', 'projects', 'recover-password-v2', 'recover-password', 'register-v2', 'register', 'starter',] as $path) {
       Route::get('/' . $path, function (Request $request) use ($path, $module) {
         return view('adminlte.examples.' . $path, $module);
       });
