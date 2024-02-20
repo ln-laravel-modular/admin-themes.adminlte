@@ -28,6 +28,11 @@
   <!-- summernote -->
   <link rel="stylesheet" href="/modules/adminlte/public/vendor/summernote/summernote-bs4.min.css">
 
+  <style>
+    .nav-item .nav-item .nav-link {
+      padding-left: 1.5rem;
+    }
+  </style>
   @section('styles') @show
 </head>
 
