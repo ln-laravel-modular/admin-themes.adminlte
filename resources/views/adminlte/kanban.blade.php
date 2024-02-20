@@ -1,3 +1,4 @@
+@extends('adminlte._layout.main')
 <!DOCTYPE html>
 <html lang="en">
 <head>

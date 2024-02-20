@@ -73,16 +73,16 @@ return [
       ["path" => "", "title" => "Contact us", "icon" => "far fa-circle", "slug" => "", "children" => []],
 
     ]],
-    ["path" => "", "title" => "Extras", "icon" => "far fa-plus-square", "slug" => "", "children" => [
+    ["path" => "/examples", "title" => "Extras", "icon" => "far fa-plus-square", "slug" => "", "children" => [
       ["path" => "", "title" => "Login & Register v1", "icon" => "far fa-circle", "slug" => "", "children" => [
-        ["path" => "", "title" => "Login v1", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
-        ["path" => "", "title" => "Register v1", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
+        ["path" => "/login", "title" => "Login v1", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
+        ["path" => "/register", "title" => "Register v1", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
         ["path" => "", "title" => "Forgot Password v1", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
         ["path" => "", "title" => "Recover Password v1", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
 
       ]],
       ["path" => "", "title" => "Login & Register v2", "icon" => "far fa-circle", "slug" => "", "children" => [
-        ["path" => "", "title" => "Login v2", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
+        ["path" => "/login-v2", "title" => "Login v2", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
         ["path" => "", "title" => "Register v2", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
         ["path" => "", "title" => "Forgot Password v2", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],
         ["path" => "", "title" => "Recover Password v2", "icon" => "far fa-dot-circle", "slug" => "", "children" => []],

@@ -38,7 +38,7 @@ Route::prefix(module_env('ROUTE_PREFIX'))->group(function () {
   });
 
   Route::prefix('examples')->group(function () use ($module) {
-    foreach (['404', '500', 'blank', 'contact-us', 'e-commerce'] as $path) {
+    foreach (['404', '500', 'blank', 'contact-us', 'contacts', 'e-commerce', 'faq', 'forgot-password-v2', 'forgot-password', 'invoice-print', 'invoice', 'language-menu', 'legacy-user-menu', 'lockscreen', 'login-v2', 'login', 'pace', 'profile', 'project-add', 'project-detail', 'project-detail', 'project-edit', 'projects', 'recover-password-v2', 'recover-password', 'register-v2', 'register'] as $path) {
       Route::get('/' . $path, function (Request $request) use ($path, $module) {
         return view('adminlte.examples.' . $path, $module);
       });
