@@ -1,7 +1,7 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
-  <a href="index3.html" class="brand-link text-center">
+  <a href="/adminlte" class="brand-link text-center">
     @empty($module_config['logo'])
     @else
       <img src="{{ $module_config['logo'] }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
