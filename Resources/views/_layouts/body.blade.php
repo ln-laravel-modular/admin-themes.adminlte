@@ -36,7 +36,7 @@
   @section('styles') @show
 </head>
 
-<body class="{{ $bodyClass }}">
+<body class="{{ $bodyClass ?? '' }}">
   @section('main')
 
     <!-- ./wrapper -->
