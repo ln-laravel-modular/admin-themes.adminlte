@@ -1,0 +1,13 @@
+{
+    "name": "AdminLTE",
+    "alias": "adminlte",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AdminLTE\\Providers\\AdminLTEServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
