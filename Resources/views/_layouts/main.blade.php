@@ -4,7 +4,7 @@
 
 @section('main')
   <div class="wrapper">
-    @section('preloader') @include('adminlte::_layouts.preloader') @show
+    {{-- @section('preloader') @include('adminlte::_layouts.preloader') @show --}}
     @section('navbar') @include('adminlte::_layouts.navbar') @show
     @section('sidebar') @include('adminlte::_layouts.sidebar') @show
     <!-- Content Wrapper. Contains page content -->
