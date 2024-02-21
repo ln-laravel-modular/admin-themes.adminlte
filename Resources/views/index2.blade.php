@@ -859,5 +859,5 @@
 @endsection
 @section('scripts')
   <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-  <script src="modules/{{ $module_env['PREFIX'] }}/public/js/pages/dashboard2.js"></script>
+  <script src="modules/adminlte/public/js/pages/dashboard2.js"></script>
 @endsection
