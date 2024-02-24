@@ -1,4 +1,4 @@
-@extends('adminlte::_layouts.main')
+@extends('adminlte::layouts.main')
 <!DOCTYPE html>
 <html lang="en">
 

@@ -1,4 +1,4 @@
-@extends('adminlte::_layouts.body', ['bodyClass' => 'hold-transition login-page'])
+@extends('adminlte::layouts.body', ['bodyClass' => 'hold-transition login-page'])
 
 @section('styles')
   <!-- Google Font: Source Sans Pro -->

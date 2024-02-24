@@ -32,6 +32,14 @@
     .nav-item .nav-item .nav-link {
       padding-left: 1.5rem;
     }
+
+    .xdebug-var-dump {
+      margin-left: 300px;
+    }
+
+    .xdebug-var-dump:first-child {
+      margin-top: 57px;
+    }
   </style>
   @section('styles') @show
 </head>

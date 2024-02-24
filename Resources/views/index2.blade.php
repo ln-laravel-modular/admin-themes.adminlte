@@ -1,4 +1,4 @@
-@extends('adminlte::_layouts.main')
+@extends('adminlte::layouts.main')
 
 <title>AdminLTE 3 | Dashboard</title>
 
