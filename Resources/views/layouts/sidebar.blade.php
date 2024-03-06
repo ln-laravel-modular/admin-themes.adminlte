@@ -1,3 +1,4 @@
+@props([])
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
@@ -62,27 +63,32 @@
                     @endempty
                   </p>
                 </a>
-                @empty($menu['children'])
+                @empty(array_filter($menu['children'] ?? [], function ($i) {
+                        return ($i['visible'] ?? true) !== false;
+                    }))
                 @else
                   <ul class="nav nav-treeview">
                     @foreach ($menu['children'] ?? [] as $menu_item)
-                      <li class="nav-item">
+                      <li class="nav-item @if (($menu_item['visible'] ?? true) == false) d-none @endif">
                         <a href="{{ $menu_item['path'] }}"
-                          class="nav-link @empty($menu_item['active']) @else active @endempty">
+                          class="nav-link @empty($menu_item['active'] ?? false) @else active @endempty">
                           <i class="nav-icon {{ $menu_item['icon'] ?? 'far fa-circle' }}"></i>
                           <p> {!! $menu_item['title'] !!}
                             @if (sizeof(array_filter($menu_item['children'] ?? [], function ($child) {
-                                        return $child['active'] === true && (isset($child['visible']) ? $child['visible'] : true) === true;
+                                        return ($child['active'] ?? false) === true &&
+                                            (isset($child['visible']) ? $child['visible'] : true) === true;
                                     })) > 0)
                               <i class="right fas fa-angle-left"></i>
                             @endif
                           </p>
                         </a>
-                        @empty($menu_item['children'])
+                        @empty(array_filter($menu_item['children'] ?? [], function ($i) {
+                                return ($i['visible'] ?? true) !== false;
+                            }))
                         @else
                           <ul class="nav nav-treeview">
                             @foreach ($menu_item['children'] ?? [] as $menu_subitem)
-                              <li class="nav-item">
+                              <li class="nav-item @if (($menu_subitem['visible'] ?? true) == false) d-none @endif">
                                 <a href="{{ $menu_subitem['path'] }}" class="nav-link">
                                   <i class="nav-icon {{ $menu_subitem['icon'] ?? 'far fa-dot-circle' }}"></i>
                                   <p>{!! $menu_subitem['title'] !!}</p>
