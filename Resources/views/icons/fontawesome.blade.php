@@ -1,1 +1,1 @@
-@extends('adminlte::layouts.main')
+@extends('adminlte::layouts.master')

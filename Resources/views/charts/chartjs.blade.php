@@ -1,4 +1,4 @@
-@extends('adminlte::layouts.main')
+@extends('adminlte::layouts.master')
 
 @section('styles')
   <!-- Google Font: Source Sans Pro -->

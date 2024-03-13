@@ -1,4 +1,4 @@
-@extends('adminlte::layouts.main')
+@extends('adminlte::layouts.master')
 
 @section('content')
   <!-- Content Header (Page header) -->
@@ -617,7 +617,7 @@
 @endsection
 
 
-@section('scripts')
+@push('scripts')
   <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
   <script src="modules/adminlte/public/js/pages/dashboard.js"></script>
-@endsection
+@endpush

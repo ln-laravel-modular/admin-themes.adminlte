@@ -2,7 +2,10 @@
     "name": "AdminLTE",
     "alias": "adminlte",
     "description": "",
-    "keywords": [],
+    "keywords": [
+        "theme",
+        "admin.theme"
+    ],
     "priority": 0,
     "providers": [
         "Modules\\AdminLTE\\Providers\\AdminLTEServiceProvider"

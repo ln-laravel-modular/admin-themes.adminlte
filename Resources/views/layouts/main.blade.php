@@ -14,12 +14,12 @@
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1 class="m-0">{{ $module_config['menu_actives'][0]['title'] ?? 'Dashboard' }}</h1>
+              <h1 class="m-0">{{ $config['menu_actives'][0]['title'] ?? 'Dashboard' }}</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                @foreach ($module_config['menu_actives'] ?? [] as $menu_item)
+                @foreach ($config['menu_actives'] ?? [] as $menu_item)
                   @if ($loop->last)
                     <li class="breadcrumb-item active">{{ $menu_item['title'] }}</li>
                   @else
@@ -35,7 +35,7 @@
       @section('content') @show
     </div>
     <!-- /.content-wrapper -->
-    @section('footer') @include('adminlte::layouts.footer') @show
+    @section('footer') @include('adminlte::shared.footer') @show
     @section('control-sidebar') @include('adminlte::layouts.control-sidebar') @show
   </div>
 @endsection

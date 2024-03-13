@@ -1,4 +1,4 @@
-@extends('adminlte::layouts.main')
+@extends('adminlte::layouts.master')
 
 <title>AdminLTE 3 | Dashboard</title>
 
@@ -857,7 +857,7 @@
   </section>
   <!-- /.content -->
 @endsection
-@section('scripts')
+@push('scripts')
   <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-  <script src="modules/adminlte/public/js/pages/dashboard2.js"></script>
-@endsection
+  <script src="modules/adminlte/public/js/pages/dashboard.js"></script>
+@endpush

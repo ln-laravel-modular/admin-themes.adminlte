@@ -2,13 +2,12 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
-  <a href="/{{ $module_config['slug'] }}" class="brand-link text-center">
-    @empty($module_config['logo'])
+  <a href="/{{ $config['slug'] }}" class="brand-link text-center">
+    @empty($config['logo'])
     @else
-      <img src="{{ $module_config['logo'] }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
-        style="opacity: .8">
+      <img src="{{ $config['logo'] }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
     @endempty
-    <span class="brand-text font-weight-light">{{ $module_config['title'] }}</span>
+    <span class="brand-text font-weight-light">{{ $config['title'] }}</span>
   </a>
 
   <!-- Sidebar -->
@@ -38,7 +37,7 @@
     <!-- Sidebar Menu -->
     <nav class="mt-2">
       <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-        @foreach ($module_config['menu'] ?? [] as $menu)
+        @foreach ($config['menu'] ?? [] as $menu)
           @switch($menu['type']??'')
             @case('header')
               <li class="nav-header">{!! $menu['title'] !!}</li>
@@ -117,19 +116,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{ $module_config['slug'] }}/index" class="nav-link active">
+                <a href="{{ $config['slug'] }}/index" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Dashboard v1</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ $module_config['slug'] }}/index2" class="nav-link">
+                <a href="{{ $config['slug'] }}/index2" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Dashboard v2</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ $module_config['slug'] }}/index3" class="nav-link">
+                <a href="{{ $config['slug'] }}/index3" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Dashboard v3</p>
                 </a>
@@ -137,7 +136,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="{{ $module_config['slug'] }}/pages/widgets.html" class="nav-link">
+            <a href="{{ $config['slug'] }}/pages/widgets.html" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Widgets
@@ -156,7 +155,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{ $module_config['slug'] }}/pages/layout/top-nav.html" class="nav-link">
+                <a href="{{ $config['slug'] }}/pages/layout/top-nav.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Top Navigation</p>
                 </a>
